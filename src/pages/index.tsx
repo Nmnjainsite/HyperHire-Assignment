@@ -1,10 +1,10 @@
 import localFont from "next/font/local";
-import Header from "./components/templates/header/header";
-import Footer from "./components/templates/footer/footer";
+import Header from "../components/templates/header/header";
+import Footer from "../components/templates/footer/footer";
 import { HeroData } from "@/types/hero";
 import { FooterDataTypes } from "@/types/footer";
 import { HeaderDataType } from "@/types/header";
-import Hero from "./components/templates/hero/hero";
+import Hero from "../components/templates/hero/hero";
 
 // Load the custom fonts
 const geistSans = localFont({
