@@ -1,5 +1,5 @@
 import React from "react";
-import HeroHome from "../templates/hero/hero-home";
+import HeroHome from "../../organisms/hero/hero-home";
 import { HeroData } from "@/types/hero";
 
 function Hero({ heroData }: { heroData: HeroData }) {

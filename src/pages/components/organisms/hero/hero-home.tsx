@@ -1,6 +1,6 @@
 import Image from "../../atoms/image/image";
 import Heading from "../../atoms/heading/heading";
-import Carousel from "../../organisms/carousel/carousel";
+import Carousel from "../carousel/carousel";
 import CheckboxField from "../../atoms/input/input";
 import { useState } from "react";
 import { Category, HeroData } from "@/types/hero";
