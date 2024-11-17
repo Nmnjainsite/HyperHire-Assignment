@@ -25,6 +25,7 @@ interface Props {
 }
 
 export default function Home({ heroData, footerData, headerData }: Props) {
+  console.log("check");
   return (
     <div className={`${geistSans.variable} ${geistMono.variable}`}>
       <div className="bg-gradient-to-r from-teal-400 to-blue-500 flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
