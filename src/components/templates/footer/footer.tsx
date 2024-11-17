@@ -11,8 +11,9 @@ export default function Footer({ footer }: { footer: FooterDataTypes }) {
     <footer>
       {footer && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
+          <div className="grid sm:grid-cols-6 lg:grid-cols-12 gap-8 py-8 md:py-12">
             <ContactInfo {...footer.companyInfo} />
+
             <FooterFeatures features={footer.features} />
             <FooterLegal legalInfo={footer.legalInfo} />
           </div>
